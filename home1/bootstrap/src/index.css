@@ -1,0 +1,204 @@
+.index{
+    background: #01b0b9;
+}
+.colf li a{
+    color: #ffffff !important;
+}
+.heigh5{
+    height: 50px;
+    line-height: 28px;
+}
+.brand-title{
+    font-family:JLinXin;
+    font-size:30px;
+    color:#01b0b9 !important;
+    text-align:left;
+    font-weight: bolder;
+}
+.community{
+    background:#ffffff;
+    width:1380px;
+    height:130px;
+}
+.community dl{
+    display: flex;
+    padding-left: 30px;
+    height: 130px;
+    padding-top: 20px;
+}
+.community dl dd h4{
+    font-family:MicrosoftYaHei;
+    font-size:24px;
+    color:#01b0b9;
+    text-align:left;
+    margin: 0;
+}
+.community dl dt{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: #01b0b9;
+    text-align: center;
+    line-height: 70px;
+}
+.community dl dd{
+    margin-left: 30px;
+}
+.community dl dd p{
+    margin-top: 15px;
+}
+.pgLeft{
+    background: #ffffff;
+    border: none;
+    overflow: hidden;
+}
+.input-file label{
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #aaa;
+    background: #ccc url("images/default_03.png") no-repeat center center;
+}
+.input-file input{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.timeline-wrap{
+    border-left: 2px solid #aaa;
+    position: relative;
+    padding: 30px 21px 50px 0;
+    margin: 30px 0;
+}
+.timeline-wrap span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius:100%;
+}
+.timeline-wrap span.top{
+    left: -6px;
+    top: -5px;
+}
+.timeline-wrap span.bottom{
+    left: -6px;
+    bottom: -5px;
+}
+.time-line li{
+    position: relative;
+}
+.time-line li:after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    left: -6px;
+    top: 20px;
+}
+.time-line > li:hover:after{
+    background-color: dodgerblue;
+}
+.time-line li.active:after{
+    background: dodgerblue;
+}
+.scrollspy-example{
+    height: 350px;
+    overflow-y: auto;
+    position: relative;
+}
+.borbot{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.resident-information{
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.resident-information div p{
+    color: #cccccc;
+}
+.inputs{
+    width: 48%;
+    margin-left: 15px;
+}
+.inputs input{
+    width: 100%;
+}
+.remarks{
+  width: 97%;  margin: 15px auto 0;
+}
+.remarks input{
+    width: 100%
+}
+.pa15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mar15{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.list{
+    width: 100%;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.list dl{
+    background:#ffffff;
+    border:1px solid #979797;
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.50);
+    position: relative;
+    width: 318px;
+    margin-left: 30px;
+}
+.list dl dt{
+    width: 100%;
+}
+.list dl dt img{
+    width: 100%;
+}
+.list dl dd{padding-top: 5px}
+.list dl dd h4{margin-left: 15px}
+.list dl dd p span{
+    margin-left: 15px;
+}
+.pos{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.posc{
+    position: absolute;
+    top: 14px;
+    left: 3px;
+    transform:rotate(-45deg);
+    color: #ffffff;
+}
+
+.heigh5 ul li a::after{
+    content:"";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    transform: rotate(-135deg);
+    top: 20px;
+    margin-left: 8px;
+}
+.heigh5 ul li a.anew::after{
+    content:"";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 1px solid lightseagreen;
+    border-bottom: 1px solid lightseagreen;
+    transform: rotate(-45deg);
+    top: 20px;
+    margin-left: 8px;
+}

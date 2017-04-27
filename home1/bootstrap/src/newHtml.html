@@ -1,0 +1,71 @@
+<div class="pgLeft">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist" style="background: #cccccc">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">活动介绍</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="messages" role="tab" data-toggle="tab">查看活动</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+            <div class="row col-md-12 bod">
+                <h4>基本信息</h4>
+            </div>
+            <div class="row col-md-12 pd-Left">
+                <p>责任人：张鑫 13032948374</p>
+                <p>责任人单位：南风里居委会</p>
+            </div>
+            <div class="row col-md-12 bod">
+                <h4>请输入栏目名称</h4>
+                <input-file></input-file>   <!--自定义-->
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+            <div class="row">
+                <div class="col-md-11">
+                    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="scrollspy-example">
+                        <h4 id="info" class="borbot">基本信息</h4>
+                        <div class="row col-md-12 pd-Left">
+                            <p>责任人：张鑫 13032948374</p>
+                            <p>责任人单位：南风里居委会</p>
+                        </div>
+                        <br><br>
+                        <h4 id="name" class="borbot" style="clear: both">请输入栏目名称</h4>
+                        <input-file></input-file>
+                        <br><br>
+                        <h4 id="resident" class="borbot">居民预约</h4>
+                        <div class="resident-information">
+                            <div class="inputs">
+                                <p>姓名：</p>
+                                <input type="text" placeholder="文本框内容">
+                            </div>
+                            <div class="inputs">
+                                <p>电话：</p>
+                                <input type="text" placeholder="文本框内容">
+                            </div>
+                            <div class="remarks">
+                                <p>备注：</p>
+                                <input type="text" placeholder="文本框内容">
+                            </div>
+                        </div>
+
+                        <br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <nav id="navbar-example2" class="navbar nav-side">
+                        <div class="timeline-wrap clearfix">
+                            <span class="circle top"></span>
+                            <span class="circle bottom"></span>
+                            <ul class="nav navbar-nav time-line">
+                                <li class=""><a href="#info">基本信息</a></li>
+                                <li class="active"><a href="#name">请输入栏目名称</a></li>
+                                <li class="dropdown"><a href="#resident">居民预约</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
